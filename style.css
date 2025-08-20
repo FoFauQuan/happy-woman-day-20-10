@@ -116,6 +116,28 @@ body {
 .flower--3 .flower__line__leaf--4 {
   animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
 }
+.flower--4 {
+  left: 70%; /* Lệch sang phải */
+  transform: rotate(20deg); /* Xoay sang phải */
+  animation: moving-flower-4 4.2s linear infinite;
+}
+
+.flower--4 .flower__line {
+  animation-delay: 1.2s;
+}
+
+.flower--4 .flower__line__leaf--1 {
+  animation: blooming-leaf-left var(--fl-speed) 2.4s backwards;
+}
+.flower--4 .flower__line__leaf--2 {
+  animation: blooming-leaf-left var(--fl-speed) 2.2s backwards;
+}
+.flower--4 .flower__line__leaf--3 {
+  animation: blooming-leaf-right var(--fl-speed) 2s backwards;
+}
+.flower--4 .flower__line__leaf--4 {
+  animation: blooming-leaf-right var(--fl-speed) 1.8s backwards;
+}
 .flower__leafs {
   position: relative;
   animation: blooming-flower 2s backwards;
